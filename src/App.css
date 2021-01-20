@@ -1,0 +1,9 @@
+.App .Cards{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.App h1{
+    font-size: 3rem;
+}

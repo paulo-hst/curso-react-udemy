@@ -1,5 +1,9 @@
 body {
     background-color: darkmagenta;
     color: white;
-    font-family: 'calibri'
+    font-family: 'Yusei Magic', sans-serif;
+}
+
+h1{
+    text-align: center;
 }
