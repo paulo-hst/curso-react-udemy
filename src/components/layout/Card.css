@@ -21,7 +21,7 @@
 
 .Card .Content{
     flex: 1; /* ou flex-grow: 1; */
-    color: yellow;
+    color: white;
     background-color: darkred;
     padding: 15px;
 

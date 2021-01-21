@@ -1,0 +1,14 @@
+.Mega input{
+    font-size: 1.4rem;
+    width: 50px;
+}
+
+.Mega h2{
+    font-weight: 100;
+}
+
+.Mega button{
+    font-size: 1.4rem;
+    margin-top: 20px;
+    font-weight: 400;
+}

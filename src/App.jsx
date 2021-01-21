@@ -2,6 +2,11 @@ import React from 'react'
 
 import './App.css'
 
+import Mega from './components/mega/Mega'
+import Contador from './components/contador/Contador'
+import Input from './components/formulario/Input'
+import IndiretaPai from './components/comunicacao/IndiretaPai'
+import DiretaPai from './components/comunicacao/DiretaPai'
 import UsuarioInfo from './components/condicional/UsuarioInfo'
 import ParOuImpar from './components/condicional/ParOuImpar'
 import ListaProdutos from './components/repeticao/ListaProdutos'
@@ -22,6 +27,26 @@ export default _ => {
             <h1>Fundamentos React!</h1>
 
             <div className="Cards">
+
+                <Card titulo="#14 - Desafio - Mega-Sena" color="#0f7088">
+                    <Mega qtde={8} ></Mega>
+                </Card>
+
+                <Card titulo="#13 - Componente baseado em classe" color="#0f7088">
+                    <Contador numeroInicial={10} />
+                </Card>
+
+                <Card titulo="#12 - Componente Controlado (Input)" color="#0f0000">
+                    <Input />
+                </Card>
+
+                <Card titulo="#11 - Comunicação Indireta" color="#0fff77">
+                    <IndiretaPai />
+                </Card>
+
+                <Card titulo="#10 - Comunicação Direta" color="#260777">
+                    <DiretaPai />
+                </Card>
 
                 <Card titulo="#09 - Renderização Condicional" color="#266777">
                     <UsuarioInfo usuario={{ nome: 'Paulo' }}/>
